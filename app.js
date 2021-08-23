@@ -7,5 +7,9 @@ function clock(){
     var m = new Date.UTC().getMinutes();
     var s = new Date.UTC().getSeconds();
 
+    hours.innerHTML = h;
+    minutes.innerHTML = m;
+    seconds.innerHTML = s;
+
 }
 
