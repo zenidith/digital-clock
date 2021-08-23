@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';   
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 0, 0, 0.5),
+        rgba(0, 0, 255, 0.5)
+        ), 
+    url(images/time.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
