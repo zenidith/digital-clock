@@ -21,3 +21,15 @@ body {
     background-size: cover;
     overflow: hidden;
 }
+
+#clock h2 {
+    position: relative;
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: 1em;
+}
