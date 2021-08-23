@@ -33,3 +33,50 @@ body {
     letter-spacing: 0.4em;
     font-size: 1em;
 }
+
+#clock #time {
+    display: flex;
+}
+
+#clock #time div {
+    position: relative;
+    margin: 0 5px;
+    /* the next line gives the text an interesting transparent, reflective mirroring like it's coming off the water */
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+
+#clock #time div span {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 120px;
+    background: #2195f3;
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    z-index: 10;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+#clock #time div span:nth-child(2) {
+    height: 30px;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    z-index: 9;
+    box-shadow: none;
+    background: #127fd6;
+    text-transform: uppercase;
+}
+
+#clock #time div:last-child span {
+    background: #8e25b1;
+}
+
+#clock #time div:last-child span:nth-child(2) {
+    background-color: #7c209b;
+}
