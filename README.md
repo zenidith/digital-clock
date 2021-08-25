@@ -1,4 +1,4 @@
-<h1>This project is a simple clock made with HTML, CSS and JS.</h1>
+<h3>This project is a simple clock made with HTML, CSS and JS.</h3>
 
 ![Digital Clock](images/clock.gif)
 
@@ -18,4 +18,4 @@ and more.
 
 The clock is live [here!](https://zenidith.github.io/digital-clock/)
 
-Happy coding!
+<h4>Happy coding!</h4>
